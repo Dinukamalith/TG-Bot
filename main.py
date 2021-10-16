@@ -2,17 +2,17 @@ import os
 import telebot
 
 
-bot = telebot.TeleBot("API එක දාහන් උස්සන්නෙ නැතුව මගෙ ඒව")
+bot = telebot.TeleBot("Api Key Here")
 
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
-  bot.reply_to(message, "Hello! I'm Uvindu Bro Chat Bot")
+  bot.reply_to(message, "welcome massege here")
 
 
-@bot.message_handler(commands=["how"])
+@bot.message_handler(commands=["command here"])
 def send_message(message):
-  bot.send_message(message.chat.id, "https://youtube.com/c/Uvindubro")
+  bot.send_message(message.chat.id, "command reply here")
 
 
 
