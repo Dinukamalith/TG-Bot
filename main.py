@@ -2,7 +2,7 @@ import os
 import telebot
 
 
-bot = telebot.TeleBot("Api Key Here")
+bot = telebot.TeleBot("5048168243:AAGO8V5VpkxxhYD4ZZvJFBp_gABCkKRaVUU")
 
 #welcome 
 
