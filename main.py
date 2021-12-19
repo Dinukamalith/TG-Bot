@@ -16,11 +16,7 @@ def send_welcome(message):
 def send_message(message):
   bot.send_message(message.chat.id, "https://t.me/tech95lkofficial")
 
-InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("Tech95lk🚀", callback_data="https://t.me/tech95lkofficial")
-                ])
+
 
 #slbotzone
 
