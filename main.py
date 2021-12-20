@@ -14,20 +14,21 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["help"])
 def send_message(message):
-  bot.send_message(message.chat.id, "Hi 😎 This is Sz Total Bot Service Help Menu.
+  bot.send_message(message.chat.id, 
+"Hi 😎 This is Sz Total Bot Service Help Menu.
 
-          🚀Bot Commands are⭕
+       🚀 Bot Commands are ✅
 
-• /tech95lk - Go to my admine group.
+✔️ /tech95lk - Go to my admine group.
 
-• /slbot - Go to sz bots chats group.
+✔️ /slbot - Go to sz bots chats group.
 
-• /szbots - Go to sz bots updates chenel.
+✔️ /szbots - Go to sz bots updates chenel.
 
-• /technews - Give tech news update.
+✔️ /technews - Give tech news update.
 
-• /vpn - Free internet tricks.
-")
+✔️ /vpn - Free internet tricks.")
+
 
 
 #my telegram group
