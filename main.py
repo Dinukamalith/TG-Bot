@@ -45,20 +45,6 @@ def send_message(message):
 def send_message(message):
   bot.send_message(message.chat.id, "https://t.me/VPN_HUB_LK_CHAT")
   
-  vpn = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("🧭 Back 🧭", callback_data="https://t.me/VPN_HUB_LK_CHAT")
-                ]
-            ]
-        )
-
-@app.on_message(filters.command(["normal"]))
-async def start(client, message):
-    await message.reply_text(
-        text=NORMAL_TEXT,
-        disable_web_page_preview=False,
-        reply_markup=vpn) 
   
 #roseupdate
 
