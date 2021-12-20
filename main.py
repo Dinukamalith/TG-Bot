@@ -35,12 +35,19 @@ def send_message(message):
 @bot.message_handler(commands=["technews"])
 def send_message(message):
   bot.send_message(message.chat.id, "https://t.me/uptodatelk")
+ 
 
 #vpnhublk
 
 @bot.message_handler(commands=["vpn"])
 def send_message(message):
   bot.send_message(message.chat.id, "https://t.me/VPN_HUB_LK_CHAT")
+  
+#roseupdate
+
+@bot.message_handler(commands=["roseup"])
+def send_message(message):
+  bot.send_message(message.chat.id, "https://t.me/szroseupdates")
 
 
 bot.polling()
