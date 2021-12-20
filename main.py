@@ -36,6 +36,12 @@ def send_message(message):
 def send_message(message):
   bot.send_message(message.chat.id, "https://t.me/uptodatelk")
  
+def gen_markup():
+    markup = InlineKeyboardMarkup()
+    markup.row_width = 2
+    markup.add(InlineKeyboardButton("Up to date group", callback_data="https://t.me/uptodatechat"),
+                               InlineKeyboardButton("Up to date chenel", callback_data="https://t.me/uptodatelk"))
+    return markup 
 
 #vpnhublk
 
